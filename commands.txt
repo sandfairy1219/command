@@ -9,3 +9,17 @@ git branch {브런치명} - 브런치 생성 (-M은 초기생성)
 git remote add {연결명} {레포 url} - 로컬 깃을 저장소에 연동
 git switch {브런치명} - 브런치 변경
 git clone {레포 url} - 레포 다운로드
+
+초기 설정
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sandfairy1219/command.git
+git push -u origin main
+
+이후 순서
+git init
+git add README.md
+git commit -m "first commit"
+git push -u origin main
