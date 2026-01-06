@@ -1,0 +1,10 @@
+git 명령어들
+
+git init - 현재 경로에 깃 셋업
+git add {파일명} - 깃레포에 업데이트될 파일 등록
+git commit -m "커밋 메세지" - 깃 변경사항 저장
+git push - 로컬의 커밋 저장상태를 온라인 레포에 동기화
+git pull - 레포로부터 로컬로 상태 동기화
+git branch {브런치명} - 브런치 생성 (-M은 초기생성)
+git remote add {연결명} {레포 url} - 로컬 깃을 저장소에 연동
+git switch {브런치명} - 브런치 변경
