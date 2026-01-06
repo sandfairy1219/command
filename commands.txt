@@ -8,3 +8,4 @@ git pull - 레포로부터 로컬로 상태 동기화
 git branch {브런치명} - 브런치 생성 (-M은 초기생성)
 git remote add {연결명} {레포 url} - 로컬 깃을 저장소에 연동
 git switch {브런치명} - 브런치 변경
+git clone {레포 url} - 레포 다운로드
