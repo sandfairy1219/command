@@ -23,3 +23,6 @@ git init
 git add README.md
 git commit -m "first commit"
 git push -u origin main
+
+git add에서 빼기
+git rm --cached + 파일명
