@@ -26,3 +26,13 @@ git push -u origin main
 
 git add에서 빼기
 git rm --cached + 파일명
+
+이전 커밋으로 되돌아가기
+git reset 커밋로그 첫4글자 (soft)
+git reset 커밋로그 첫4글자 --hard
+
+마지막 커밋
+git reset
+
+커밋로그보기
+git log
