@@ -22,7 +22,7 @@ git push -u origin main
 git init
 git add README.md
 git commit -m "first commit"
-git push -u origin main
+git push 
 
 git add에서 빼기
 git rm --cached + 파일명
@@ -36,3 +36,9 @@ git reset
 
 커밋로그보기
 git log
+
+git merge
+git branch (브런치 리스트보기)
+git branch + 브런치이름 (브런치생성)
+git switch + 브런치이름
+git fetch (git 상태 동기화)
